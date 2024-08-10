@@ -3,6 +3,9 @@ import time
 from telegram import Bot
 from telegram.error import TelegramError
 
+from keep_alive import keep_alive
+keep_alive()
+
 # Your Telegram Bot API key
 API_KEY = '7340152765:AAF9zS3kHSYEfCfrh1EgsQNFInEdidNkQFY'
 bot = Bot(token=API_KEY)
